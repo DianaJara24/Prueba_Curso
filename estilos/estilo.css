@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+html,body{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.principal {
+    /*background-color: rgb(98, 204, 223);*/
+    text-align: center;
+    background-image: url("./imagenes/ff.png");
+    background-size: cover;
+    width: auto;
+    height: 110px;
+    margin-top: 5px;
+    margin-left: 5px;
+    display: block;
+    padding: 50px;
+}
+#izquierda {
+    float: left;
+    background-color: rgb(56, 57, 58);
+    width: 20%;
+    height: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+    align-content: center;
+}
+
+#imag{
+    display:block;
+    margin:auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+#derecha {
+    float: right;
+    background-color: rgb(240, 240, 240);
+    width: 78%;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu li{
+    display:inline;
+    margin-left: 30px;
+    border: 2px;
+    list-style-type: none;
+    
+}
+ol{
+    background: rgba(0, 0, 0, 0.393);
+    width: 96%;
+    margin: 5px;
+    padding: 30px;
+    float: left;
+   
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover{
+    background-color:white;
+    color: rgba(0, 0, 0, 0.288);
+    border-bottom: 1px solid;
+    
+}
+   
+#subti {
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+}
